@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: say-good-morning
         id: good-morning
-        uses: Roboshop-2/workflows/github/actions/gm@main
+        uses: Roboshop-2/workflows/.github/actions/gm@main
         with:
           person: "Ramesh"
