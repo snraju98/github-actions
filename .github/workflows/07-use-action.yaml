@@ -13,4 +13,4 @@ jobs:
       
       - name: get the output
         run: |
-          echo '${{ steps.good-morning.outputs.greeting-status }}'
+          echo "${{ steps.good-morning.outputs.greeting-status }}"
