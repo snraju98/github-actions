@@ -10,8 +10,7 @@ jobs:
         uses: Roboshop-2/workflows/.github/actions/gm@main
         with:
           person: "Ramesh"
-
-
+      
       - name: get the output
         run: |
           echo "${{ steps.good-morning.outputs.greeting-status }}"
